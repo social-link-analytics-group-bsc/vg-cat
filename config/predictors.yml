@@ -1,0 +1,13 @@
+predictors:
+  - name: Sexe
+    type: categorical
+    values: ["Dones", "Homes", "Altres"]
+    
+  - name: Edat
+    type: categorical
+    values: [ "Fins a 12 anys", "De 13 a 18 anys", "De 19 a 29 anys", "De 30 a 45 anys", "De 46 a 65 anys", "Més de 65 anys",  "No consta"]
+    
+  - name: Nivell de formació
+    type: categorical
+    values: ["Sense estudis", "Estudis primaris", "Estudis secundaris", "Estudis superiors", "No consta"]
+    
