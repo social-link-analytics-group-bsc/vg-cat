@@ -1,0 +1,24 @@
+outcomes:
+  - name: Detecció violència masclista
+    type: categorical
+    values: ["Sí", "No", "No consta"]
+    
+  - name: Violència física
+    type: categorical
+    values: ["Sí", "No", "No consta"]
+    
+  - name: Violència psicològica
+    type: categorical
+    values: ["Sí", "No", "No consta"]
+    
+  - name: Violència sexual i abusos sexuals
+    type: categorical
+    values: ["Sí", "No", "No consta"]
+    
+  - name: Violència econòmica
+    type: categorical
+    values: ["Sí", "No", "No consta"]
+    
+  - name: Violència masclista en la parella
+    type: categorical
+    values: ["Sí", "No", "No consta"]
