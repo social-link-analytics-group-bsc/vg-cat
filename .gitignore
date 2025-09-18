@@ -1,0 +1,10 @@
+# Ingnore result folders
+eda/
+mca/
+missingness/
+models/
+spider/
+
+
+# Ingnore photos
+*.png

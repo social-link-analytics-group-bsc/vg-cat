@@ -13,7 +13,8 @@ from .utils import setup_logging
 from .preprocessor import DataPreprocessor
 from .agent import AgentAnalysis
 from .automatic import AutomaticAnalysis
-from .exploratory import ExploratoryAnalysis
+from .exploratory import ExploratoryDataAnalysis
+from .geography_match import GeographyMatch
 
 CONFIG_OUTCOMES = "./vg-cat/config/outcomes.yml" 
 CONFIG_PREDICTORS = "./vg-cat/config/predictors.yml"
@@ -75,8 +76,12 @@ def run ( case_records: str, siad_centers: str, run_mode: str , analysis: str, o
 
     if run_mode == "exploratory":
         
-        analysis = ExploratoryAnalysis(CONFIG_OUTCOMES, CONFIG_PREDICTORS)
-        analysis.run(normaliced_case_records, normaliced_siad_centers)
+        eda = ExploratoryDataAnalysis(CONFIG_OUTCOMES, CONFIG_PREDICTORS)
+        eda.run(normaliced_case_records, normaliced_siad_centers)
+
+        geo_analysis = GeographyMatch()
+        geo_analysis.run(normaliced_case_records, normaliced_siad_centers)
+
 
     if run_mode == "agent":
 
