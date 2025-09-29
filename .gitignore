@@ -4,7 +4,8 @@ mca/
 missingness/
 models/
 spider/
-
+__pycache__/
 
 # Ingnore photos
 *.png
+

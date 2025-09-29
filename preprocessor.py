@@ -8,7 +8,7 @@ import numpy as np
 class CatalanGrammarChecker:
     def __init__(self):
 
-        token = "<your token>"  # Insert your hugging face token here  
+        token = "TUTOKEN"  # Insert your hugging face token here  
         self.model_name = "BSC-LT/roberta-base-ca"
         self.tokenizer = AutoTokenizer.from_pretrained(self.model_name, token=token)
         self.model = AutoModelForMaskedLM.from_pretrained(self.model_name, token=token)
@@ -92,7 +92,9 @@ class DataPreprocessor:
         for col in df.select_dtypes(include="object"): 
             df[col] = df[col].str.strip()
         return df
-    
+
+    def count_duplicates(self, df: pd.DataFrame) -> pd.DataFrame:
+        return f"Número de filas duplicadas: {df.duplicated().sum()}"    
 
     def normalize_typos(self, df: pd.DataFrame, threshold: int = 96) -> pd.DataFrame:
         """
@@ -126,7 +128,7 @@ class DataPreprocessor:
                 else:
                     df[col] = df[col].astype(str).replace(option1, option2)
 
-            return df
+        return df
 
     def summarize_missing(self, df: pd.DataFrame) -> pd.DataFrame:
         """
