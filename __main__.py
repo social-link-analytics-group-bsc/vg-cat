@@ -64,7 +64,9 @@ def run ( case_records: str, siad_centers: str, run_mode: str , analysis: str, o
         {"Informació i atenció a les dones de Badia del Vallès": "Informació i atenció a les dones (SIAD) de Badia del Vallès"}
     )
 
-
+    # print(processor.count_duplicates(case_records))
+    # print(processor.count_duplicates(siad_centers))
+    
     ##############################
     # Analysis Mode Selection
     ##############################
@@ -77,10 +79,10 @@ def run ( case_records: str, siad_centers: str, run_mode: str , analysis: str, o
     if run_mode == "exploratory":
         
         eda = ExploratoryDataAnalysis(CONFIG_OUTCOMES, CONFIG_PREDICTORS)
-        eda.run(normaliced_case_records, normaliced_siad_centers)
+        eda.run(normaliced_case_records)
 
-        geo_analysis = GeographyMatch()
-        geo_analysis.run(normaliced_case_records, normaliced_siad_centers)
+        # geo_analysis = GeographyMatch()
+        # geo_analysis.run(normaliced_case_records, normaliced_siad_centers)
 
 
     if run_mode == "agent":
