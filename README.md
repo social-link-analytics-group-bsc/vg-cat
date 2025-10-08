@@ -104,3 +104,5 @@ python make_plots.py
     - hist_Incidències per comarca.png
 Run locally:
 python use_descriptive_plots.py
+
+Both implementations are currently being evaluated to be integrated into a single module for plot generation.
