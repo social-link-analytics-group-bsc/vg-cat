@@ -9,3 +9,8 @@ __pycache__/
 # Ingnore photos
 *.png
 
+# Ignore big files
+data/raw/*.csv
+data/processed/*.csv
+outputs/*
+
