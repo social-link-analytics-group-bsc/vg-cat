@@ -1,0 +1,322 @@
+[
+  {
+    "name": "SIAD",
+    "fieldName": "siad",
+    "dataTypeName": "text",
+    "description": "SIAD o Oficina en la que s’ha atès",
+    "items": "Ajuntament de l'Hospitalet de Llobregat",
+    "counts": "28883",
+    "serviceType": "SIAD",
+    "sourceURL": null
+  },
+  {
+    "name": "Sexe",
+    "fieldName": "sexe",
+    "dataTypeName": "text",
+    "description": "Sexe de la persona atesa",
+    "items": "Dones",
+    "counts": "691222",
+    "serviceType": "SIAD",
+    "sourceURL": null
+  },
+  {
+    "name": "Edat",
+    "fieldName": "edat",
+    "dataTypeName": "text",
+    "description": "Edat agrupada de la persona atesa",
+    "items": "De 30 a 45 anys",
+    "counts": "300954",
+    "serviceType": "SIAD",
+    "sourceURL": null
+  },
+  {
+    "name": "Discapacitat",
+    "fieldName": "discapacitat",
+    "dataTypeName": "text",
+    "description": "Discapacitat de la persona atesa",
+    "items": "No",
+    "counts": "380271",
+    "serviceType": "SIAD",
+    "sourceURL": null
+  },
+  {
+    "name": "Comarca",
+    "fieldName": "comarca",
+    "dataTypeName": "text",
+    "description": "Comarca a la qual pertany el servei que l’ha atès",
+    "items": "Baix Llobregat",
+    "counts": "122311",
+    "serviceType": "SIAD",
+    "sourceURL": null
+  },
+  {
+    "name": "Àmbit",
+    "fieldName": "ambit",
+    "dataTypeName": "text",
+    "description": "Àmbit territorial funcional al qual pertany el servei que l’ha atès",
+    "items": "Metropolità",
+    "counts": "388710",
+    "serviceType": "SIAD",
+    "sourceURL": null
+  },
+  {
+    "name": "Estat civil",
+    "fieldName": "estatcivil",
+    "dataTypeName": "text",
+    "description": "Estat civil de la persona atesa",
+    "items": "No consta",
+    "counts": "202179",
+    "serviceType": "SIAD",
+    "sourceURL": null
+  },
+  {
+    "name": "Lloc de naixement",
+    "fieldName": "llocdenaixement",
+    "dataTypeName": "text",
+    "description": "Lloc de naixement de la persona atesa",
+    "items": "Espanya",
+    "counts": "452445",
+    "serviceType": "SIAD",
+    "sourceURL": null
+  },
+  {
+    "name": "Tipus de família",
+    "fieldName": "tipusdefamilia",
+    "dataTypeName": "text",
+    "description": "Tipologia de la unitat familiar de la persona atesa",
+    "items": "No consta",
+    "counts": "228505",
+    "serviceType": "SIAD",
+    "sourceURL": null
+  },
+  {
+    "name": "Situació laboral",
+    "fieldName": "situaciolaboral",
+    "dataTypeName": "text",
+    "description": "Situació laboral de la persona atesa",
+    "items": "No consta",
+    "counts": "423108",
+    "serviceType": "SIAD",
+    "sourceURL": null
+  },
+  {
+    "name": "Professió",
+    "fieldName": "professio",
+    "dataTypeName": "text",
+    "description": "Professió de la persona atesa",
+    "items": "No consta",
+    "counts": "538072",
+    "serviceType": "SIAD",
+    "sourceURL": null
+  },
+  {
+    "name": "Nivell de formació",
+    "fieldName": "nivelldeformacio",
+    "dataTypeName": "text",
+    "description": "Nivell de formació de la persona atesa",
+    "items": "No consta",
+    "counts": "449496",
+    "serviceType": "SIAD",
+    "sourceURL": null
+  },
+  {
+    "name": "Canal d’entrada",
+    "fieldName": "canaldentrada",
+    "dataTypeName": "text",
+    "description": "Canal d’entrada al servei d’atenció",
+    "items": "Serveis socials",
+    "counts": "187050",
+    "serviceType": "SIAD",
+    "sourceURL": null
+  },
+  {
+    "name": "Situació econòmica",
+    "fieldName": "situacioeconomica",
+    "dataTypeName": "text",
+    "description": "Situació econòmica agrupada de la persona atesa",
+    "items": "No consta",
+    "counts": "290973",
+    "serviceType": "SIAD",
+    "sourceURL": null
+  },
+  {
+    "name": "Forma de tramitació",
+    "fieldName": "formadetramitacio",
+    "dataTypeName": "text",
+    "description": "Forma de tramitació de l’atenció",
+    "items": "Presencial",
+    "counts": "381864",
+    "serviceType": "SIAD",
+    "sourceURL": null
+  },
+  {
+    "name": "Detecció violència masclista",
+    "fieldName": "deteccioviolenciamasclista",
+    "dataTypeName": "text",
+    "description": "Detecció de violència masclista",
+    "items": "Sí",
+    "counts": "255330",
+    "serviceType": "SIAD",
+    "sourceURL": null
+  },
+  {
+    "name": "Violència física ",
+    "fieldName": "violenciafisica",
+    "dataTypeName": "text",
+    "description": "Detecció de violència física",
+    "items": "No consta",
+    "counts": "466988",
+    "serviceType": "SIAD",
+    "sourceURL": null
+  },
+  {
+    "name": "Violència psicològica ",
+    "fieldName": "violenciapsicologica",
+    "dataTypeName": "text",
+    "description": "Detecció de violència psicològica",
+    "items": "No consta",
+    "counts": "429117",
+    "serviceType": "SIAD",
+    "sourceURL": null
+  },
+  {
+    "name": "Violència sexual i abusos sexuals",
+    "fieldName": "violenciasexualiabusossexuals",
+    "dataTypeName": "text",
+    "description": "Detecció de violència sexual i abusos sexuals",
+    "items": "No consta",
+    "counts": "481753",
+    "serviceType": "SIAD",
+    "sourceURL": null
+  },
+  {
+    "name": "Violència econòmica",
+    "fieldName": "viol_ncia_econ_mica",
+    "dataTypeName": "text",
+    "description": "Detecció de violència econòmica",
+    "items": "No consta",
+    "counts": "676697",
+    "serviceType": "SIAD",
+    "sourceURL": null
+  },
+  {
+    "name": "Violència masclista en la parella",
+    "fieldName": "vmenlaparella",
+    "dataTypeName": "text",
+    "description": "Detecció de violència masclista en la parella",
+    "items": "No consta",
+    "counts": "643775",
+    "serviceType": "SIAD",
+    "sourceURL": null
+  },
+  {
+    "name": "Servei que atén",
+    "fieldName": "servei_que_at_n",
+    "dataTypeName": "text",
+    "description": "Servei concret que atén a la persona",
+    "items": "Servei d'assessorament psicològic",
+    "counts": "288417",
+    "serviceType": "SIAD",
+    "sourceURL": null
+  },
+  {
+    "name": "Derivació a serveis atenció a les dones",
+    "fieldName": "derivacioaserveisatencio",
+    "dataTypeName": "text",
+    "description": "Derivacions a altres serveis",
+    "items": "No consta",
+    "counts": "591028",
+    "serviceType": "SIAD",
+    "sourceURL": null
+  },
+  {
+    "name": "Tipologia de consulta",
+    "fieldName": "tipologiadeconsulta",
+    "dataTypeName": "text",
+    "description": "Tipologia de la consulta que es realitza al servei",
+    "items": "Psicològic",
+    "counts": "223009",
+    "serviceType": "SIAD",
+    "sourceURL": null
+  },
+  {
+    "name": "Tipologia de consulta d’àrea laboral",
+    "fieldName": "tipologiadeconsultadeare",
+    "dataTypeName": "text",
+    "description": "Tipologia de consulta dins de l’àrea laboral",
+    "items": "No consta",
+    "counts": "671135",
+    "serviceType": "SIAD",
+    "sourceURL": null
+  },
+  {
+    "name": "Tipologia de consulta d’àrea de salut",
+    "fieldName": "tipologia_de_consulta_d_rea_de_salut",
+    "dataTypeName": "text",
+    "description": "Tipologia de consulta dins de l’àrea de salut",
+    "items": "No consta",
+    "counts": "672158",
+    "serviceType": "SIAD",
+    "sourceURL": null
+  },
+  {
+    "name": "Tipologia de consulta d’àrea de serveis socials",
+    "fieldName": "tipologiadeconsultadeare_2",
+    "dataTypeName": "text",
+    "description": "Tipologia de consulta dins de l’àrea de serveis socials",
+    "items": "No consta",
+    "counts": "674189",
+    "serviceType": "SIAD",
+    "sourceURL": null
+  },
+  {
+    "name": "Tipologia de consulta d’àrea de violència ",
+    "fieldName": "tipologiadeconsultadeare_3",
+    "dataTypeName": "text",
+    "description": "Tipologia de consulta dins de l’àrea de violència",
+    "items": "No consta",
+    "counts": "566084",
+    "serviceType": "SIAD",
+    "sourceURL": null
+  },
+  {
+    "name": "Tipologia de consulta d’àrea de psicologia",
+    "fieldName": "tipologiadeconsultadeare_4",
+    "dataTypeName": "text",
+    "description": "Tipologia de consulta dins de l’àrea psicològica",
+    "items": "No consta",
+    "counts": "589996",
+    "serviceType": "SIAD",
+    "sourceURL": null
+  },
+  {
+    "name": "Tipologia de consulta d’àrea de jurídica ",
+    "fieldName": "tipologiadeconsultadeare_5",
+    "dataTypeName": "text",
+    "description": "Tipologia de consulta dins de l’àrea jurídica",
+    "items": "No consta",
+    "counts": "614899",
+    "serviceType": "SIAD",
+    "sourceURL": null
+  },
+  {
+    "name": "Atencions",
+    "fieldName": "atencionsodones",
+    "dataTypeName": "text",
+    "description": "Diferenciació entre primera atenció i altres atencions",
+    "items": "Altres atencions",
+    "counts": "536868",
+    "serviceType": "SIAD",
+    "sourceURL": null
+  },
+  {
+    "name": "Any ",
+    "fieldName": "any",
+    "dataTypeName": "text",
+    "description": "Any de l’atenció ",
+    "items": "2024",
+    "counts": "138523",
+    "serviceType": "SIAD",
+    "sourceURL": null
+  }
+]

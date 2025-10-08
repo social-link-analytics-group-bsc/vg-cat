@@ -1,0 +1,188 @@
+[
+  {
+    "name": "IDSIAD",
+    "fieldName": "idsiad",
+    "dataTypeName": "text",
+    "description": "",
+    "items": "155",
+    "counts": "2",
+    "serviceType": "SIE",
+    "sourceURL": null
+  },
+  {
+    "name": "NOM DEL CENTRE",
+    "fieldName": "nom_del_centre",
+    "dataTypeName": "text",
+    "description": "Nom del SIAD o SIE ",
+    "items": "Servei d'Intervenció Especialitzada en violència masclista (SIE) de Tarragona",
+    "counts": "2",
+    "serviceType": "SIE",
+    "sourceURL": null
+  },
+  {
+    "name": "TIPUS DE VIA",
+    "fieldName": "tipus_de_via",
+    "dataTypeName": "text",
+    "description": "Carrer, Avinguda, Plaça, etc",
+    "items": "Carrer",
+    "counts": "92",
+    "serviceType": "SIE",
+    "sourceURL": null
+  },
+  {
+    "name": "ADREÇA",
+    "fieldName": "adre_a",
+    "dataTypeName": "text",
+    "description": "Nom del carrer, avinguda, plaça, etc.",
+    "items": "Àngel Guimerà, 106-108",
+    "counts": "3",
+    "serviceType": "SIE",
+    "sourceURL": null
+  },
+  {
+    "name": "CODI POSTAL",
+    "fieldName": "codi_postal",
+    "dataTypeName": "text",
+    "description": "Codi postal ",
+    "items": "17190",
+    "counts": "4",
+    "serviceType": "SIE",
+    "sourceURL": null
+  },
+  {
+    "name": "POBLACIÓ",
+    "fieldName": "poblaci",
+    "dataTypeName": "text",
+    "description": "Població on està situat el SIAD o SIE",
+    "items": "Barcelona",
+    "counts": "12",
+    "serviceType": "SIE",
+    "sourceURL": null
+  },
+  {
+    "name": "COMARCA",
+    "fieldName": "comarca",
+    "dataTypeName": "text",
+    "description": "Comarca",
+    "items": "Baix Llobregat",
+    "counts": "19",
+    "serviceType": "SIE",
+    "sourceURL": null
+  },
+  {
+    "name": "DEMARCACIÓ",
+    "fieldName": "demarcaci",
+    "dataTypeName": "text",
+    "description": "",
+    "items": "Metropolità",
+    "counts": "70",
+    "serviceType": "SIE",
+    "sourceURL": null
+  },
+  {
+    "name": "CERCA",
+    "fieldName": "cerca",
+    "dataTypeName": "text",
+    "description": "Fins ara les cerques es feien per comarca clicant a sobre d’un mapa la comarca, i apareixia el llistat de SIAD i SIE d’aquella comarca.",
+    "items": "Baix Llobregat",
+    "counts": "19",
+    "serviceType": "SIE",
+    "sourceURL": null
+  },
+  {
+    "name": "TELÈFON",
+    "fieldName": "tel_fon",
+    "dataTypeName": "text",
+    "description": "Telèfon",
+    "items": "936197311",
+    "counts": "10",
+    "serviceType": "SIE",
+    "sourceURL": null
+  },
+  {
+    "name": "CORREU ELECTRÒNIC",
+    "fieldName": "correu_electr_nic",
+    "dataTypeName": "text",
+    "description": "Correu electrònic",
+    "items": "siad@cbs.cat",
+    "counts": "3",
+    "serviceType": "SIE",
+    "sourceURL": null
+  },
+  {
+    "name": "TIPUS",
+    "fieldName": "tipus",
+    "dataTypeName": "text",
+    "description": "",
+    "items": "SIAD",
+    "counts": "107",
+    "serviceType": "SIE",
+    "sourceURL": null
+  },
+  {
+    "name": "Titularitat",
+    "fieldName": "titularitat",
+    "dataTypeName": "text",
+    "description": "Titularitat dels SIAD i CIE",
+    "items": "Generalitat de Catalunya",
+    "counts": "21",
+    "serviceType": "SIE",
+    "sourceURL": null
+  },
+  {
+    "name": "Latitud",
+    "fieldName": "latitud",
+    "dataTypeName": "number",
+    "description": "Coordenada Latitud",
+    "items": "40.71257",
+    "counts": "2",
+    "serviceType": "SIE",
+    "sourceURL": null
+  },
+  {
+    "name": "Longitud",
+    "fieldName": "longitud",
+    "dataTypeName": "number",
+    "description": "Coordenada Longitud",
+    "items": "2.7928",
+    "counts": "2",
+    "serviceType": "SIE",
+    "sourceURL": null
+  },
+  {
+    "name": "Georeferència",
+    "fieldName": "geocoded_column",
+    "dataTypeName": "point",
+    "description": "Georeferència",
+    "items": {
+      "coordinates": [
+        0.58284,
+        40.71257
+      ],
+      "type": "Point"
+    },
+    "counts": "2",
+    "serviceType": "SIE",
+    "sourceURL": null
+  },
+  {
+    "name": "LIMADM_MUNICIPI 2",
+    "fieldName": ":@computed_region_bh64_c7uy",
+    "dataTypeName": "number",
+    "description": "This column was automatically created in order to record in what polygon from the dataset 'LIMADM_MUNICIPI' (bh64-c7uy) the point in column 'geocoded_column' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+    "items": null,
+    "counts": null,
+    "serviceType": "SIE",
+    "sourceURL": null
+  },
+  {
+    "name": "LIMADM COMARCA 2",
+    "fieldName": ":@computed_region_wvic_k925",
+    "dataTypeName": "number",
+    "description": "This column was automatically created in order to record in what polygon from the dataset 'LIMADM COMARCA' (wvic-k925) the point in column 'geocoded_column' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+    "items": null,
+    "counts": null,
+    "serviceType": "SIE",
+    "sourceURL": null
+  }
+]
