@@ -73,3 +73,34 @@ For addressing gender-based violence, the Specialized Intervention Services (SIE
 ### Víctimes violència masclista – àmbit social o comunitari
 
 **Source:** [https://analisi.transparenciacatalunya.cat/Seguretat/V-ctimes-viol-ncia-masclista-mbit-social-o-comunit/6rcq-y46b/about\_data](https://analisi.transparenciacatalunya.cat/Seguretat/V-ctimes-viol-ncia-masclista-mbit-social-o-comunit/6rcq-y46b/about_data)
+
+# Branch climatic_analysis
+This branch extends the project with exploratory and visualization scripts for analyzing the distribution of gender violence cases across Catalonia.
+
+## Overview
+The branch introduces new workflows for:
+- Loading and matching case data (SIAD) with center location data (directory).
+- Automatically detecting the municipality and comarca of each record, even when not explicitly stated.
+- Generating visualizations of number of cases by municipality and by comarca.
+- Managing large files and private tokens through local environment configuration (.env).
+
+## New scripts
+1. make_plots.py - Independent plotting workflow
+- Loads data from data/raw/siad_raw.csv and data/raw/centers_raw.csv.
+- Cleans and normalizes service names (SIAD, PIAD, SIE) to match them with the directory of centers.
+- Uses heuristic rules to infer missing municipalities (e.g. "Oficina ICD de Barcelona, "PIAD de Barcelona-Eixample")
+- Excludes "No consta" values from the municipality plot.
+- Outputs two plots to outputs/:
+  - incidencies_por_municipio.png - Top 20 municipalities.
+    - incidencies_por_comarca.png - All comarques.
+Run locally:
+python make_plots.py
+
+2. use_descriptive_plots.py - Integrated workflow using project classes
+- Imports the DescriptiveAnalysis class from descriptive.py for consistency with the project's plotting stile.
+- Merges cases and center directly (without heuristic corrections).
+- Produces the same two plots, under ./vg-cat/eda/hist/:
+  - hist_Incidències per municipi (Top 20).png
+    - hist_Incidències per comarca.png
+Run locally:
+python use_descriptive_plots.py
