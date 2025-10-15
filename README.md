@@ -75,7 +75,9 @@ For addressing gender-based violence, the Specialized Intervention Services (SIE
 **Source:** [https://analisi.transparenciacatalunya.cat/Seguretat/V-ctimes-viol-ncia-masclista-mbit-social-o-comunit/6rcq-y46b/about\_data](https://analisi.transparenciacatalunya.cat/Seguretat/V-ctimes-viol-ncia-masclista-mbit-social-o-comunit/6rcq-y46b/about_data)
 
 # Branch climatic_analysis
-This branch extends the project with exploratory and visualization scripts for analyzing the distribution of gender violence cases across Catalonia.
+This branch extends the project with geospatial analysis and visualization notebooks, complementing the previous descriptive scripts.
+
+It explores the spatial distribution of gender violence incidents across Catalonia, both by municipality and comarca, using open data from the Generalitat de Catalunya.
 
 ## Overview
 The branch introduces new workflows for:
@@ -106,3 +108,26 @@ Run locally:
 python use_descriptive_plots.py
 
 Both implementations are currently being evaluated to be integrated into a single module for plot generation.
+
+## New notebook: mapa_incidencias.ipynb
+Generates thematic maps (cloropleths) showing the number of gender violence cases reported to SIAD/PIAD centers across Catalonia, aggregated by comarca and municipality.
+Inputs:
+- data/processed/mapa_catalunya_comarca.csv - contains total cases per comarca (merge_key, cases_total, label).
+- data/raw/comarques.geojson - geographic boundaries of Catalan comarques.
+- (optional) data/raw/municipalities_fix.geojson - alternate version including municipality geometries
+Workflow:
+1. Loads and normalizes data:
+   - Standardizes accent marks and punctuation (e.g. Baix Llobregat -> baix-llobregat).
+   - Matches comarques between the CSV and the GeoJSON file.
+2. Merges attributes and geometries:
+   - Left-join of case totals to the geographic layer.
+   - Automatically detects and corrects unmatched comarques using a small alias dictionary. 
+3. Generates visualizations:
+   - Choropleth map of total incidents by comarca (yea 2024 by default).
+   - Optional map by municipality (if the comarques_fix.geojson layer is used).
+   - Legend and color scale (OrRd) represent the number of reported cases.
+4. Exports output:
+   - outputs/incidencias_por_comarca_2024.png
+   - outputs/incidencias_por_municipio_2024.png
+Run locally:
+python -m notebook notebooks/mapa_incidencias.ipynb
