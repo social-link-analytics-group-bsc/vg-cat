@@ -17,3 +17,6 @@ outputs/*
 data/raw/*.csv
 data/processed/*.csv
 outputs/*
+.env
+.backup_bigfiles/
+.backup_preprocessor.py
