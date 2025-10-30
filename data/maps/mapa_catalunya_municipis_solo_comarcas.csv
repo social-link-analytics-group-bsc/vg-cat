@@ -1,0 +1,36 @@
+merge_key,cases_total,label,is_comarca
+valles-oriental,24110,Valles Oriental,True
+selva,17599,Selva,True
+valles-occidental,13601,Valles Occidental,True
+garrotxa,11083,Garrotxa,True
+baix-penedes,10549,Baix Penedes,True
+baix-camp,8543,Baix Camp,True
+segria,8519,Segria,True
+maresme,7702,Maresme,True
+tarragones,7543,Tarragones,True
+baix-llobregat,7266,Baix Llobregat,True
+baix-ebre,5495,Baix Ebre,True
+ripolles,5341,Ripolles,True
+baix-emporda,5321,Baix Emporda,True
+alt-camp,5234,Alt Camp,True
+alt-penedes,4740,Alt Penedes,True
+garraf,4398,Garraf,True
+noguera,4274,Noguera,True
+pallars-jussa,4173,Pallars Jussa,True
+osona,4162,Osona,True
+cerdanya,3873,Cerdanya,True
+alt-emporda,2995,Alt Emporda,True
+moianes,2807,Moianes,True
+solsones,2647,Solsones,True
+anoia,2595,Anoia,True
+alta-ribagorca,2562,Alta Ribagorca,True
+segarra,2554,Segarra,True
+bergueda,2235,Bergueda,True
+terra-alta,2120,Terra Alta,True
+girones,2049,Girones,True
+montsia,1774,Montsia,True
+pallars-sobira,1522,Pallars Sobira,True
+aran,1305,Aran,True
+terres-de-l-ebre,1041,Terres De L Ebre,True
+priorat,933,Priorat,True
+alt-urgell,364,Alt Urgell,True
